@@ -37,7 +37,7 @@ session_start();
   <nav class="navbar navbar-expand-md border-bottom my-2" aria-label="Fourth navbar example">
     <div class="container-fluid">
       <!-- <a class="navbar-brand " href="/"><strong>MOPASANG VALATH</strong></a> -->
-      <a class="navbar-brand " href="#">
+      <a class="navbar-brand " href="/">
         <img src="<?php echo get_template_directory_uri() . '/assets/nav-brand.png' ?>" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,20 +48,10 @@ session_start();
         <div class="collapse navbar-collapse justify-content-end" id="navbarsExample04">
           <ul class="navbar-nav mb-2 mb-md-0 d-flex text-uppercase">
             <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="/#home">Home</a>
+              <a class="nav-link " aria-current="page" href="/about">About</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="/#work">Works</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="/acrylic-gallery">Acrylic</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="/water-color-gallery">Water Color</a>
-            </li>
-
-            <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="/#about">About</a>
+              <a class="nav-link " aria-current="page" href="/#Shop">Shop</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link " aria-current="page" href="/#contact">Contact</a>
